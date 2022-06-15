@@ -1,0 +1,57 @@
+body {
+    background: #f5d9d5;
+    font-family: 'nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(218, 51, 51);
+    font-size: 2rem;
+
+}
+
+#mainNavbar {
+    font-size: 2rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(218, 51, 51);
+}
+
+#headingGroup span {
+    color: rgb(218, 51, 51);
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+h2 {
+    color: rgb(218, 51, 51);
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+p {
+    color: rgb(239, 120, 140);
+    font-weight: 100;
+    font-size: 1.123rem;
+}
+.content {
+    margin-top: 30px;
+}
+.navbar.scrolled{
+    background: rgb(136, 232, 136);
+    transition: background 100ms;
+}
+
+@media (max-width:1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
